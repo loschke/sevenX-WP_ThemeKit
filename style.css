@@ -10,6 +10,7 @@ License URI:    https://opensource.org/licenses/MIT
 Text-Domain:	sevenx-theme
 */
 
+/*minimal styles */
 article {border-bottom: dotted 1px #ccc; margin: 0 0 20px 0;}
 .wrapper {width: 80%; margin: auto;}
 .main-content {width: 60%; float: left;}
