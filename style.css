@@ -1,0 +1,38 @@
+/*
+Theme Name:     sevenX WP Theme - blank
+Theme URI:      http://ricoloschke.com/wp-theme/
+Description:    Custom Wordpress Theme by sevenX
+Author:         sevenX - Rico Loschke
+Author URI:     http://sevenx.de
+Version:        0.1.0
+License:        MIT
+License URI:    https://opensource.org/licenses/MIT
+Text-Domain:	sevenx-theme
+*/
+
+article {border-bottom: dotted 1px #ccc; margin: 0 0 20px 0;}
+.wrapper {width: 80%; margin: auto;}
+.main-content {width: 60%; float: left;}
+.sidebar {width: 30%; float: right; background: #f1f1f1;}
+.footer {clear: both; border-top: 2px solid #cccccc; margin-top: 30px;}
+
+/* Required CSS Classes */
+.wp-caption {}
+.wp-caption-text {}
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
+.alignright {}
+.alignleft {}
+.aligncenter {}
+.screen-reader-text {}
+
+/* Required CSS Classes for defined content-width */
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;
+}
