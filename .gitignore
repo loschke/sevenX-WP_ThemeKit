@@ -2,6 +2,9 @@
 *.iml
 .idea/
 
+#ignore FTP configuration
+deployment-config.json
+
 # LESS/CSS Compiler
 prepros.cfg
 

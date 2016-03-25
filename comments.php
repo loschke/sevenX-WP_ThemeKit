@@ -12,6 +12,8 @@
     <ul>
         <?php wp_list_comments(); ?>
     </ul>
+    
+    <?php paginate_comments_links(); ?>
 
 <?php elseif ( ! comments_open() && ! is_page() && post_type_supports( get_post_type(), 'comments' ) ) : ?>
 

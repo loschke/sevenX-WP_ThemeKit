@@ -6,6 +6,8 @@
 
             <h1><?php _e( 'Latest Posts', 'sevenx-theme' ); ?></h1>
 
+            <h2><?php wp_title();?></h2>
+
             <?php get_template_part('loop'); ?>
 
             <?php get_template_part('template-parts/pagination'); ?>
