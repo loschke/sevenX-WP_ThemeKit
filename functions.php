@@ -24,7 +24,7 @@ if ( ! isset( $content_width ) )
 function sevenx_content_width() {
     global $content_width;
 
-    if ( is_page_template( 'tpl-fullwidth.php' ) )
+    if ( is_page_template( 'fullwidth-without-sidebar.php' ) )
         $content_width = 1180;
 }
 add_action( 'template_redirect', 'sevenx_content_width' );

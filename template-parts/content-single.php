@@ -11,6 +11,12 @@
     <span class="author"><?php _e( 'Published by', 'sevenx-theme' ); ?> <?php the_author_posts_link(); ?></span>
 
     <span class="comments"><?php if (comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'sevenx-theme' ), __( '1 Comment', 'sevenx-theme' ), __( '% Comments', 'sevenx-theme' )); ?></span>
+    
+    <?php
+    if(get_the_category_list()) {
+        _e( 'Categories', 'sevenx-theme' );
+        echo get_the_category_list();     // list post categories
+    } ?>
     <hr>
     <!-- /post meta -->
 

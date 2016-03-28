@@ -4,7 +4,7 @@
         <!-- section -->
         <section>
 
-            <h1><?php wp_title();?></h1>
+            <?php get_template_part( 'template-parts/searchform' );?>
 
     <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 

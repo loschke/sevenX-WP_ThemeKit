@@ -13,8 +13,9 @@ Text-Domain:	sevenx-theme
 /*minimal styles */
 article {border-bottom: dotted 1px #ccc; margin: 0 0 20px 0;}
 .wrapper {width: 80%; margin: auto;}
-.main-content {width: 60%; float: left;}
-.sidebar {width: 30%; float: right; background: #f1f1f1;}
+.full-content {width: 100%; float: left;}
+.main-content {width: 66%; float: left;}
+.sidebar {width: 33%; float: right; background: #f1f1f1;}
 .footer {clear: both; border-top: 2px solid #cccccc; margin-top: 30px;}
 
 /* Required CSS Classes */
