@@ -1,8 +1,9 @@
 <?php
 /*
- * Template Name: Full Width without sidebar
+ * Template Name: Full Width without Sidebar
  * Description: Page template without sidebar
  */
+__( 'Full Width without Sidebar', 'sevenx-theme' );
 ?>
 
 <?php get_header(); ?>

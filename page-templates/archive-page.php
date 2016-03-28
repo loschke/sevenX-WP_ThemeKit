@@ -1,8 +1,9 @@
 <?php
 /**
- * Template Name: Archive Page Template
- * Description: A custom archive page with tags, latest posts and a monthly archive
+ * Template Name: Archive Page
+ * Description: A custom archive page with categories, tags, latest posts and a monthly archive
  */
+__( 'Archive Page', 'sevenx-theme' );
 ?>
 
 <?php get_header(); ?>

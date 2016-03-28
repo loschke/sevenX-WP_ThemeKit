@@ -9,6 +9,8 @@
 
     <h2><?php comments_number(); ?></h2>
 
+    <?php paginate_comments_links(); ?>
+
     <ul>
         <?php wp_list_comments(); ?>
     </ul>

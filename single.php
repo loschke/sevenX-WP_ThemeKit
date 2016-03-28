@@ -10,6 +10,9 @@
 
         <?php get_template_part( 'template-parts/content', 'single' );?>
 
+        <span><?php previous_post_link('%link', '&laquo; %title', TRUE); ?></span>
+        <span><?php next_post_link('%link', '%title &raquo;', TRUE); ?></span>
+
     <?php
     endwhile;
     endif;?>

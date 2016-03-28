@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sevenX WP Theme - blank\n"
-"POT-Creation-Date: 2016-03-21 23:20+0100\n"
-"PO-Revision-Date: 2016-03-21 23:21+0100\n"
+"POT-Creation-Date: 2016-03-28 17:35+0200\n"
+"PO-Revision-Date: 2016-03-28 17:36+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Dieser Beitrag ist kennwortgeschützt. Bitte gib das Kennwort an, um den "
 "Inhalt einzusehen."
 
-#: comments.php:18
+#: comments.php:22
 msgid "Comments are closed here."
 msgstr "Die Kommentar-Funktion wurde deaktiviert."
 
@@ -58,33 +58,66 @@ msgstr "Social Bar"
 msgid "Footer"
 msgstr "Fußbereich"
 
-#: index.php:7
+#: index.php:7 page-templates/fullwidth-without-sidebar.php:15
 msgid "Latest Posts"
 msgstr "Neue Beiträge"
+
+#: page-templates/archive-page.php:6
+msgid "Archive Page"
+msgstr "Archivseite"
+
+#: page-templates/fullwidth-without-sidebar.php:6
+msgid "Full Width without Sidebar"
+msgstr "Ganzseitig (ohne Seitenspalten)"
+
+#: template-parts/content-archive.php:5
+msgid "Filter by Categories:"
+msgstr "Filter nach Kategorien"
+
+#: template-parts/content-archive.php:11
+msgid "Filter by Tags:"
+msgstr "nach Schlagwörtern filtern"
+
+#: template-parts/content-archive.php:17
+msgid "The Latest 30 Posts:"
+msgstr "Die neuesten 30 Beiträge:"
+
+#: template-parts/content-archive.php:23
+msgid "The Monthly Archives:"
+msgstr "Monats-Archiv: %s"
 
 #: template-parts/content-none.php:3
 msgid "Sorry, nothing to display."
 msgstr "Entschuldigung, es wurde kein passender Inhalt gefunden!"
 
-#: template-parts/content-page.php:21 template-parts/content-single.php:21
-#: template-parts/content.php:24
+#: template-parts/content-page.php:11 template-parts/content-search.php:25
+#: template-parts/content-single.php:11 template-parts/content.php:24
 msgid "Published by"
 msgstr "Veröffentlicht von"
 
-#: template-parts/content-page.php:22 template-parts/content-single.php:22
-#: template-parts/content.php:25
+#: template-parts/content-page.php:13 template-parts/content-search.php:27
+#: template-parts/content-single.php:13 template-parts/content.php:26
 msgid "Leave your thoughts"
 msgstr "Kommentar schreiben"
 
-#: template-parts/content-page.php:22 template-parts/content-single.php:22
-#: template-parts/content.php:25
+#: template-parts/content-page.php:13 template-parts/content-search.php:27
+#: template-parts/content-single.php:13 template-parts/content.php:26
 msgid "1 Comment"
 msgstr "1 Kommentar"
 
-#: template-parts/content-page.php:22 template-parts/content-single.php:22
-#: template-parts/content.php:25
+#: template-parts/content-page.php:13 template-parts/content-search.php:27
+#: template-parts/content-single.php:13 template-parts/content.php:26
 msgid "% Comments"
 msgstr "% Kommentare"
+
+#: template-parts/content-page.php:17 template-parts/content-search.php:31
+#: template-parts/content-single.php:17 template-parts/content.php:29
+msgid "Categories"
+msgstr "Kategorien"
+
+#: template-parts/content-page.php:36 template-parts/content-single.php:36
+msgid "Tags"
+msgstr "(Tags) Schlagwörter:"
 
 #. Theme Name of the plugin/theme
 msgid "sevenX WP Theme - blank"
