@@ -1,19 +1,19 @@
-# IDE Project Files
+#IDE Project Files
 *.iml
 .idea/
 
-#ignore FTP configuration
+#ignore ATOM FTP configuration
 deployment-config.json
 
-# LESS/CSS Compiler
+#LESS/CSS Compiler
 prepros.cfg
 
-# Dreamweaver Notes
+#Dreamweaver Notes
 _notes
 _mmServerScripts
 
 #ignore thumbnails created by windows
 Thumbs.db
 
-# Mac DS Store
+#Mac DS Store
 .DS_Store
