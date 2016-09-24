@@ -1,3 +1,3 @@
-# Blank Wordpress Theme by sevenX
+# Wordpress Theme Kit by sevenX
 
-![alt tag](http://ricoloschke.com/wp/wp-content/themes/sevenx-blank/screenshot.png)
+work in progress
