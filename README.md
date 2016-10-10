@@ -1,3 +1,3 @@
-# Wordpress Theme Kit by sevenX
+# sevenX - Wordpress Theme Skeleton
 
 work in progress

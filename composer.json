@@ -1,0 +1,21 @@
+{
+  "name": "sevenx/7x-wp-skeleton",
+  "description": "Custom Wordpress Skeleton Theme",
+  "keywords": ["wordpress", "theme", "sevenx", "skeleton"],
+  "homepage": "https://github.com/loschke/sevenX_WPTheme_skeleton",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sevenX - Rico Loschke",
+      "email": "hello@sevenX.de",
+      "homepage": "https://sevenx.de"
+    }
+  ],
+  "type": "wordpress-theme",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=5.5",
+    "composer/installers": "v1.0.25"
+  }
+}
