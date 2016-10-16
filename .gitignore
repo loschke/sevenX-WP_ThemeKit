@@ -1,6 +1,7 @@
 #IDE Project Files
 *.iml
 .idea/
+xampp.json
 
 #ignore ATOM FTP configuration
 deployment-config.json
